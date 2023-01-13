@@ -10,7 +10,7 @@
       "keywords": "#7ea4df",
       "types": "#1fa8d8",
       "comments": "#06c6f7",
-      "strings": "#29a792",
+      "strings": "#f4a261",
       "textMateRules": [
         {
           "scope": "entity.name.tag",
@@ -22,13 +22,14 @@
         {
           "scope": "comment",
           "settings": {
-            "fontStyle": "italic"
+            "fontStyle": "italic",
+            "foreground": "#878E88"
           }
         },
         {
           "scope": "entity.other.attribute-name",
           "settings": {
-            "foreground": "#ff000094",
+            "foreground": "#f55d3e",
             "fontStyle": "italic underline"
           }
         }
@@ -84,6 +85,6 @@
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B",
     "editorLineNumber.foreground": "#ffffff",
-    "editor.foreground": "#12d4b4"
+    "editor.foreground": "#e9c46a"
   }
 }
