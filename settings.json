@@ -6,14 +6,34 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
+    "[Community Material Theme Darker High Contrast]": {
+      "keywords": "#7ea4df",
+      "types": "#1fa8d8",
+      "comments": "#06c6f7",
+      "strings": "#29a792",
+      "textMateRules": [
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#1586f0"
+          }
+        },
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "foreground": "#ff000094",
+            "fontStyle": "italic underline"
+          }
         }
-      }
-    ]
+      ]
+    }
   },
   // cursor
   "editor.cursorSmoothCaretAnimation": true,
@@ -62,6 +82,8 @@
     "terminal.ansiMagenta": "#8F4673",
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
+    "terminal.ansiYellow": "#FAC03B",
+    "editorLineNumber.foreground": "#ffffff",
+    "editor.foreground": "#12d4b4"
   }
 }
